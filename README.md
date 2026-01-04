@@ -1,16 +1,32 @@
-# React + Vite
+# 🎨 SmartCreative Studio (Tesco Hackathon Submission)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Developer: Prateek Gupta
 
-Currently, two official plugins are available:
+**Gen-AI powered creative automation for the retail sector.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+SmartCreative Studio is a mobile-first web application that allows Small & Medium Businesses (SMBs) to generate professional, Tesco-compliant advertising assets in seconds. It solves the bottleneck of expensive and slow ad production.
 
-## React Compiler
+## 🚀 Key Features
+* **🤖 AI Background Removal:** instantly isolates products from raw photos using `rembg` (u2net).
+* **🎨 Dynamic Theming:** One-click adaptation for seasonal campaigns (e.g., Summer ☀️, Winter ❄️).
+* **✅ Automated Compliance:** Built-in rule engine checks for Tesco branding, safe zones, and logo placement.
+* **📱 Mobile-First Design:** Optimized for field sales and store managers to create ads on the go.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+* **Frontend:** React.js, Vite, Konva (Canvas manipulation)
+* **Backend:** Python FastAPI, Uvicorn
+* **AI Engine:** Rembg (Background Removal), Pillow (Image Processing)
+* **Infrastructure:** Google Colab (GPU Compute), Ngrok (Tunneling), Vercel (Frontend Deployment)
 
-## Expanding the ESLint configuration
+## 🎥 Demo
+[Link to your YouTube Video Here]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚡ How It Works
+1.  **Ingest:** User uploads a raw product image.
+2.  **Process:** Python backend processes the image to remove background and enhance quality.
+3.  **Compose:** React frontend layers the product onto Tesco-approved seasonal templates.
+4.  **Validate:** The system checks the composite against Tesco Design Guidelines.
+5.  **Export:** High-resolution PNG is generated for immediate deployment.
+
+---
+*Built for the Tesco Hackathon 2026.*
