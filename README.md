@@ -1,6 +1,6 @@
 # 🎨 SmartCreative Studio (Tesco Hackathon Submission)
 
-# Developer: Prateek Gupta
+**Developer: Prateek Gupta**
 
 **Gen-AI powered creative automation for the retail sector.**
 
@@ -19,7 +19,7 @@ SmartCreative Studio is a mobile-first web application that allows Small & Mediu
 * **Infrastructure:** Google Colab (GPU Compute), Ngrok (Tunneling), Vercel (Frontend Deployment)
 
 ## 🎥 Demo
-[Link to your YouTube Video Here]
+[https://drive.google.com/file/d/1pmR3b9rX5XZ9CcIU8mXpQY2FxfSaqFZU/view?usp=drivesdk]
 
 ## ⚡ How It Works
 1.  **Ingest:** User uploads a raw product image.
